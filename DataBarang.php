@@ -11,7 +11,7 @@
 <div class="container">
   <!-- Content here -->
   <div class="row">
-  <form>
+  <form action="ProsesDataBarang.php" method="Post" enctype="Multipart/Form-data">
   <div class="form-group">
     <label for="exampleFormControlInput1">Nama Barang</label>
     <input type="email" class="form-control" id="Nama Barang" Name="Nama Barang">
@@ -26,7 +26,7 @@
   <div class="form-group">
     <label for="exampleFormControlInput1">Harga</label>
     <input type="email" class="form-control" id="Harga" Name="Harga">
-</div>
+  </div>
 <div>
 <label>Foto</label>
     <input type="file" class="form-control" id="Foto" Name="Foto">
